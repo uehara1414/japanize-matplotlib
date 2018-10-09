@@ -19,10 +19,10 @@ plt.show()
 ## インストール
 ```sh
 # pipenvで
-pipenv install japanize_matplotlib
+pipenv install japanize-matplotlib
 
 # またはpipで
-pip install japanize_matplotlib
+pip install japanize-matplotlib
 ```
 
 ## 利用フォント

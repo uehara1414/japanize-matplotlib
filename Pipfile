@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+matplotlib = "*"
+pandas = "*"
+twine = "*"
 
 [requires]
 python_version = "3.6"

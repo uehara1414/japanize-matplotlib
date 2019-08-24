@@ -1,0 +1,50 @@
+version: 2
+jobs:
+  build-python27:
+    docker:
+      - image: python:2.7.13
+    steps:
+      - checkout  # ソースコードを作業ディレクトリにチェックアウトします
+      - run:
+          command: |  # Pipenv を使用して依存関係をインストールします
+            pip install pipenv
+            pipenv install --python /usr/local/bin/python
+      - run: python tests/test_import.py
+  build-python34:
+    docker:
+      - image: python:3.4.3
+    steps:
+      - checkout  # ソースコードを作業ディレクトリにチェックアウトします
+      - run:
+          command: |  # Pipenv を使用して依存関係をインストールします
+            pip install pipenv
+            pipenv install --python /usr/local/bin/python
+      - run: python tests/test_import.py
+  build-python35:
+    docker:
+      - image: python:3.5.3
+    steps:
+      - checkout  # ソースコードを作業ディレクトリにチェックアウトします
+      - run:
+          command: |  # Pipenv を使用して依存関係をインストールします
+            pip install pipenv
+            pipenv install --python /usr/local/bin/python
+      - run: python tests/test_import.py
+  build-python36:
+    docker:
+      - image: python:3.6.0
+    steps:
+      - checkout  # ソースコードを作業ディレクトリにチェックアウトします
+      - run:
+          command: |  # Pipenv を使用して依存関係をインストールします
+            pip install pipenv
+            pipenv install --python /usr/local/bin/python
+      - run: python tests/test_import.py
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build-python27
+      - build-python34
+      - build-python35
+      - build-python36

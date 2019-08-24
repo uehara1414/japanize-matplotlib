@@ -18,8 +18,8 @@ jobs:
       - run:
           command: |  # Pipenv を使用して依存関係をインストールします
             pip install pipenv
-            pipenv install --python /usr/local/bin/python
-      - run: python tests/test_import.py
+            pipenv install --dev --python /usr/local/bin/python
+      - run: python -m tests.test_import
   build-python35:
     docker:
       - image: python:3.5.3

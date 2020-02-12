@@ -17,5 +17,9 @@ def japanize():
     matplotlib.rc('font', family=FONT_NAME)
 
 
+def get_font_ttf_path():
+    return get_font_path() / FONT_NAME
+
+
 def get_font_path():
     return pathlib.Path(os.path.abspath(__file__)).parent / pathlib.Path(FONTS_DIR)

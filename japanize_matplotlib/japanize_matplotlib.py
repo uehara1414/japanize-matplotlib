@@ -1,5 +1,4 @@
 import os
-import pathlib
 
 import matplotlib
 from matplotlib import font_manager
@@ -11,7 +10,7 @@ FONT_TTF = 'ipaexg.ttf'
 
 def japanize():
     font_dir_path = get_font_path()
-    font_dirs = [str(font_dir_path)]
+    font_dirs = [font_dir_path]
     font_files = font_manager.findSystemFonts(fontpaths=font_dirs)
     font_list = font_manager.createFontList(font_files)
     font_manager.fontManager.ttflist.extend(font_list)
@@ -23,4 +22,7 @@ def get_font_ttf_path():
 
 
 def get_font_path():
-    return pathlib.Path(os.path.abspath(__file__)).parent / pathlib.Path(FONTS_DIR)
+    return os.path.abspath(os.path.join(os.path.dirname(__file__), FONTS_DIR))
+
+
+japanize()

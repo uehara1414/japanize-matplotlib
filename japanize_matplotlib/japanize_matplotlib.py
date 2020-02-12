@@ -6,6 +6,7 @@ from matplotlib import font_manager
 
 FONTS_DIR = 'fonts'
 FONT_NAME = "IPAexGothic"
+FONT_TTF = 'ipaexg.ttf'
 
 
 def japanize():
@@ -18,7 +19,7 @@ def japanize():
 
 
 def get_font_ttf_path():
-    return get_font_path() / FONT_NAME
+    return get_font_path() / FONT_TTF
 
 
 def get_font_path():

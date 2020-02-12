@@ -18,7 +18,7 @@ def japanize():
 
 
 def get_font_ttf_path():
-    return get_font_path() / FONT_TTF
+    return os.path.join(get_font_path(), FONT_TTF)
 
 
 def get_font_path():

@@ -3,7 +3,7 @@
 matplotlib を日本語表示に対応させる
 
 ## 利用方法
-matplotlibをimportした後、japanize_matplotlib.japanizeを実行する。
+matplotlibをimportした後、japanize_matplotlibをimportする。
 
 ```python
 import matplotlib.pyplot as plt

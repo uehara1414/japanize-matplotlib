@@ -46,4 +46,3 @@ sns.set(font="IPAexGothic") のように利用フォントに IPAexGothic を設
 
 ### なぜインストール時は japanize-matplotlib で import 時は japanize_matplotlib なのですか？
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">japanize-matplotlib の命名は「japanizeという単語が伝わるか？」「ケバブケースとスネークケースがインストール時と利用時とで変化するけど気づけるか？」とか懸念点があったけど思い悩んでも仕方ない！俺が作るんだ！！俺が好きな方針で行く！！！<br>と考えてええいって作ってしまった</p>&mdash; uehara (@uehara1414) <a href="https://twitter.com/uehara1414/status/1224713926128087042?ref_src=twsrc%5Etfw">February 4, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -1,9 +1,11 @@
 [![PyPI version](https://badge.fury.io/py/japanize-matplotlib.svg)](https://badge.fury.io/py/japanize-matplotlib)
 # japanize-matplotlib
-matplotlib を日本語表示に対応させる
+matplotlib を日本語表示に対応させます
 
 ## 利用方法
-matplotlibをimportした後、japanize_matplotlibをimportする。
+matplotlibをimportした後、japanize_matplotlibをimportします。
+
+リンターの警告が気になある方向けに japanize_matplotlib.japanize() メソッドの実行でもimport時と同じくフォントを設定できるようになっています。
 
 ```python
 import matplotlib.pyplot as plt

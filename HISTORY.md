@@ -3,3 +3,6 @@
 
 ## 1.1.0 (2020-05-03)
 [#9](https://github.com/uehara1414/japanize-matplotlib/pull/9) import時に加えてjapanizeメソッドを実行した際にもフォントが有効化されるよう機能追加 ([@vaaaaanquish](https://github.com/vaaaaanquish))
+
+## 1.1.1 (2020-05-03)
+READMEにFAQを追加

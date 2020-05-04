@@ -22,6 +22,3 @@ jobs:
 
     - name: Install dependencies
       run: pipenv install
-
-    - name: Test with pytest
-      run: poetry run pytest

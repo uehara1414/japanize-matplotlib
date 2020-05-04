@@ -9,6 +9,7 @@ matplotlib = "*"
 [dev-packages]
 matplotlib = "*"
 twine = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.6"

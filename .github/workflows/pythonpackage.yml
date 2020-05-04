@@ -25,5 +25,4 @@ jobs:
 
     - name: Test with pytest
       run: |
-        export PYTHONPATH=./
         pipenv run pytest

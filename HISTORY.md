@@ -6,3 +6,6 @@
 
 ## 1.1.1 (2020-05-03)
 READMEにFAQを追加
+
+## 1.1.2 (2020-05-04)
+[#16](https://github.com/uehara1414/japanize-matplotlib/pull/16) READMEの誤植を修正 ([@upura](https://github.com/upura))

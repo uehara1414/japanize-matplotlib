@@ -19,11 +19,12 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip setuptools
-        pip install -e .
+        python -m pip install --upgrade pip setuptools pipenv
+        pipenv sync
+        pipenv sync --dev
+        pipenv install -e .
 
     - name: Test with pytest
       run: |
-        pip install pytest
         export PYTHONPATH=./
         pytest

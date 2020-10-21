@@ -9,7 +9,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding
 install_requires = ['matplotlib']
 
 setup(name='japanize-matplotlib',
-      version='1.1.2',
+      version='1.1.3',
       description='matplotlibのフォント設定を自動で日本語化する',
       author='uehara1414',
       author_email='akiya.noface@gmail.com',

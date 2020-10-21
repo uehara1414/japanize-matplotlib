@@ -7,5 +7,8 @@
 ## 1.1.1 (2020-05-03)
 READMEにFAQを追加
 
-## 1.1.2 (2020-10-21)
+## 1.1.2 (2020-05-04)
+記憶にない・・・
+
+## 1.1.3 (2020-10-21)
 [#15](https://github.com/uehara1414/japanize-matplotlib/pull/15) matplotlibのバージョンが3.2以降の環境の場合、import時にWarningが出てしまう問題を解決 ([@pesuchin](https://github.com/pesuchin))

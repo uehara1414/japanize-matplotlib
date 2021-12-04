@@ -24,6 +24,9 @@ pipenv install japanize-matplotlib
 
 # またはpipで
 pip install japanize-matplotlib
+
+# condaで
+conda install -c uehara1414 japanize-matplotlib
 ```
 
 ## 利用フォント

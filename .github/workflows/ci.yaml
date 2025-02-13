@@ -28,6 +28,7 @@ jobs:
       - run: python demo.py
 
   create-snapshot:
+    name: create-snapshot (py${{ matrix.python_version }}, mpl${{ matrix.matplotlib_version }})
     runs-on: ubuntu-24.04
     strategy:
       fail-fast: false

@@ -58,7 +58,7 @@ jobs:
           rye pin "$PYTHON_VERSION" --no-update-requires-python
 
           rm -f requirements.lock requirements-dev.lock
-          rye add "matplotlib==$MATPLOTLIB_VERSION.*"
+          rye add "matplotlib==$MATPLOTLIB_VERSION.*" matplotlib<2
           rye sync
 
           python test/create_snapshot.py "$SNAPSHOT_DIR/$SNAPSHOT_FILENAME"
